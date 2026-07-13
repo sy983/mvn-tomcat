@@ -4,7 +4,7 @@ steps:
    args: ['clean', 'package']
 artifacts:
   objects:
-    location: 'gs:// sy-gcp-tf/'
+    location: 'gs://sy-gcp-tf/'
     paths: ['target/*.war']
 
 options:
