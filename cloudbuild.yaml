@@ -1,4 +1,4 @@
 steps:
- - name: 'mvn package'
-   endpoint: 'mvm'
-   args: ['clean','package']
+ - name: 'maven:3.8.1-jdk-11'
+   endpoint: 'mvn'
+   args: ['clean', 'package']
