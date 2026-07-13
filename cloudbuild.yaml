@@ -2,7 +2,7 @@ steps:
  - name: 'maven:3.8.1-jdk-11'
    entrypoint: 'mvn'
    args: ['clean', 'package']
- artifacts:
+artifacts:
   objects:
     location: 'gs:// sy-gcp-tf/'
     paths: ['target/*.war']
