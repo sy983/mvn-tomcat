@@ -1,0 +1,4 @@
+steps:
+ - name: 'mvn package'
+   endpoint: 'mvm'
+   args: ['clean','package']
